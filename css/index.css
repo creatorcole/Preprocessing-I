@@ -129,18 +129,19 @@ table {
 /* Set every element's box-sizing to border-box */
 * {
   box-sizing: border-box;
+  line-height: 2;
 }
 html,
 body {
   height: 100%;
 }
-
-.container{
-  margin: 40px;
+.container {
+  width: 98%;
+  display: flex;
 }
-
-.navigation {
-  text-align: center;
-  text-decoration: NONE;
-  margin: 20px;
+#leftalign {
+  width: 30%;
+}
+#rightalign {
+  width: 68%;
 }

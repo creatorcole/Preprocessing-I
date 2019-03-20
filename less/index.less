@@ -50,10 +50,33 @@ table {
 
 /* Set every element's box-sizing to border-box */
 * {
-    box-sizing: border-box;
+	box-sizing: border-box;
+	line-height: 2;
+	font-family: 
 }
 
 html, body {
     height: 100%;
 }
+
+.container {
+	width: 98%;
+	display: @direction;
+}
+
+#leftalign {
+width: 30%;
+}
+
+#rightalign {
+	width : 68%;
+}
+
+
+.flex-direction(@direction: column) {
+	-webkit-flex-direction: @direction;
+		-ms-flex-direction: @direction;
+			flex-direction: @direction;
+  }
+
 
